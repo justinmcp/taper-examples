@@ -12,7 +12,7 @@
 
 <body>
   <main role="main">
-    <%= taper_render(@view_module, @view_template, assigns, class: "todoapp") %>
+    <%= @inner_content %>
   </main>
   <%= taper_script() %>
 </body>

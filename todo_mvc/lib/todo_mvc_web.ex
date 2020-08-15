@@ -48,6 +48,7 @@ defmodule TodoMvcWeb do
 
       import Plug.Conn
       import Phoenix.Controller
+      import Taper.Router
     end
   end
 

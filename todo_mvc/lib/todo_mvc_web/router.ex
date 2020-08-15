@@ -16,7 +16,8 @@ defmodule TodoMvcWeb.Router do
   scope "/", TodoMvcWeb do
     pipe_through :browser
 
-    get "/", PageController, :index
+    taper "/", PageController
+    # taper "/", PageController, server_only: true
   end
 
   # Other scopes may use custom stacks.
